@@ -1,0 +1,99 @@
+.imageupload {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  background-color: transparent;
+  align-items: center;
+}
+
+.imageupload__progress {
+  width: 100%;
+}
+
+.imageupload__caption {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 5px;
+  margin-left: 2px;
+  border: none;
+  outline-width: 0;
+}
+.imageupload__file {
+  margin-top: 10px;
+}
+.imageupload__inputs {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.imageupload__form {
+  width: 100%;
+  z-index: 100;
+  background-color: white;
+  position: fixed;
+  bottom: 0px;
+}
+.imageupload__button > .MuiButton-label {
+  margin-top: 15px;
+  margin-right: 30px !important;
+  background-color: rgb(160, 169, 163);
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.s2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+  .imageupload__form {
+    position: fixed;
+    bottom: 0;
+    padding: 5px;
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imageupload__inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imageupload__caption {
+    width: 100vw;
+    margin-bottom: 5px;
+    padding: 5px;
+    height: 20px !important;
+  }
+  .imageupload__file {
+    padding: 5px;
+    margin-bottom: 8px;
+  }
+
+  .imageupload__button > .MuiButton-label {
+    margin-top: 2px;
+    background-color: rgb(160, 169, 163);
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    font-weight: 600;
+  }
+
+  .s2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
